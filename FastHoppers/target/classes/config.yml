@@ -1,0 +1,23 @@
+# FastHoppers Configuration
+
+# Available modes:
+# performance - Slightly faster than normal hoppers
+# medium - Very fast item transfer
+# hard - Items skip hoppers and go directly to containers
+# custom - Use your own speed multiplier
+mode: "performance"
+
+# Speed multipliers for different modes
+speeds:
+  performance:
+    # 20% faster than normal
+    multiplier: 1.2
+  medium:
+    # 5x faster than normal
+    multiplier: 5.0
+  hard:
+    # Instant transfer (skips hopper)
+  custom:
+    # Set your own speed (1 = normal speed, 100 = instant/skip hopper)
+    # Values between 1 and 100
+    multiplier: 1.0
