@@ -1,0 +1,6 @@
+name: FastHoppers
+version: '1.0-SNAPSHOT'
+main: de.zaebbel.fastHoppers.FastHoppers
+api-version: '1.20'
+authors: [ zaebbel ]
+description: A lightweight plugin for configurable hopper speeds
